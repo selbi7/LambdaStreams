@@ -10,7 +10,8 @@ public class DBConnections {
             System.out.println("Connecting to PostgreSQL");
         }else if(database.equalsIgnoreCase(Databases.COSMOSDB.toString())){
             System.out.println("Connecting to CosmosDB");
-        }else if(database.equalsIgnoreCase(Databases.ORACLESQL.toString())){
+        }else if(database.equalsIgnoreCase(Databases.ORACLESQL.toString()
+        )){
             System.out.println("Connecting to OracleSQL");
         }
 
